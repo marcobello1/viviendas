@@ -1,0 +1,125 @@
+
+nav a.nav-link{
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+}
+nav ul li{
+  text-transform: uppercase;
+}
+form::before{
+  box-sizing: border-box;
+}
+form::after{
+  box-sizing: border-box;
+}
+div .form-row{
+ /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 775px;
+height: 75px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.form-row input, .form-row select{
+  height: 39px;
+  width: 245px;
+}
+div .form-group {
+  margin-top: 1rem;
+}
+div .form-1{
+padding-left: 5px;
+padding-right: 5px;
+width: 30%;
+gap: 5px;
+}
+div .form-1sala{
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 30%;
+  gap: 5px;
+  }
+.form-1sala div label{
+  justify-content: center;
+  align-items: center;
+  margin-right: 2px;
+}
+.ingresar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-nombre{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.formulario-2, .formulario {
+  margin-top: 15px;
+}
+.formulario-2 h2 {
+  width: 100%;
+  flex-wrap: wrap;
+}
+div .form-nombre{
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 49%;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  }
+.turno{
+  margin-top: 1rem;
+}
+input{
+  width: 100%;
+}
+div .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 5px;
+}
+.buttoningresar{
+  margin-top: 5px;
+}
+.editarborrar{
+  display: flex;
+  flex-direction: row;
+}
+.editarborrar button {
+  margin-right: 5px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+}
+div h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+div h2 {
+  text-align: center;
+}
